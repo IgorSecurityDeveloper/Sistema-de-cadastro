@@ -1,0 +1,332 @@
+2022.12.28 16:38:57 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\.metals\lsp.trace.json or C:\Users\igora\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.12.28 16:39:00 INFO  logging to file C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\.metals\metals.log
+2022.12.28 16:39:00 INFO  Started: Metals version 0.11.9 in workspace 'C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro' for client Visual Studio Code 1.74.2.
+2022.12.28 16:39:03 INFO  time: initialize in 3.54s
+2022.12.28 16:39:06 WARN  Build server is not auto-connectable.
+2022.12.28 16:39:06 WARN  no build tool detected in workspace 'C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.12.28 16:39:06 WARN  no build target for: C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java
+2022.12.28 16:39:09 WARN  Running javac-semanticdb failed for file:///C:/Users/igora/Documents/LAB%20-%20Knowledge/Sistema-de-cadastro/backend/src/main/java/com/devsuperior/dsmeta/controllers/SaleController.java. Output:
+semanticdb-javac: unknown flag '-'
+
+semanticdb-javac: unknown flag 'Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers'
+
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:3: error: package org.springframework.beans.factory.annotation does not exist
+import org.springframework.beans.factory.annotation.Autowired;
+                                                   ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:4: error: package org.springframework.data.domain does not exist
+import org.springframework.data.domain.Page;
+                                      ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:5: error: package org.springframework.data.domain does not exist
+import org.springframework.data.domain.Pageable;
+                                      ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:6: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.GetMapping;
+                                              ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:7: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.PathVariable;
+                                              ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:8: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.RequestMapping;
+                                              ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:9: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.RequestParam;
+                                              ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:10: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.RestController;
+                                              ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:12: error: package com.devsuperior.dsmeta.entities does not exist
+import com.devsuperior.dsmeta.entities.Sale;
+                                      ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:13: error: package com.devsuperior.dsmeta.services does not exist
+import com.devsuperior.dsmeta.services.SaleService;
+                                      ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:14: error: package com.devsuperior.dsmeta.services does not exist
+import com.devsuperior.dsmeta.services.SmsService;
+                                      ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:16: error: cannot find symbol
+@RestController
+ ^
+  symbol: class RestController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:17: error: cannot find symbol
+@RequestMapping(value="/sales")
+ ^
+  symbol: class RequestMapping
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:21: error: cannot find symbol
+	private SaleService service;
+	        ^
+  symbol:   class SaleService
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:24: error: cannot find symbol
+	private SmsService smsService;
+	        ^
+  symbol:   class SmsService
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:30: error: cannot find symbol
+			Pageable pageable) {
+			^
+  symbol:   class Pageable
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:27: error: cannot find symbol
+	public Page<Sale> findSales(
+	       ^
+  symbol:   class Page
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:27: error: cannot find symbol
+	public Page<Sale> findSales(
+	            ^
+  symbol:   class Sale
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:20: error: cannot find symbol
+	@Autowired
+	 ^
+  symbol:   class Autowired
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:23: error: cannot find symbol
+	@Autowired
+	 ^
+  symbol:   class Autowired
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:28: error: cannot find symbol
+			@RequestParam(value="minDate", defaultValue = "") String minDate, 
+			 ^
+  symbol:   class RequestParam
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:29: error: cannot find symbol
+			@RequestParam(value="maxDate", defaultValue = "") String maxDate, 
+			 ^
+  symbol:   class RequestParam
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:26: error: cannot find symbol
+	@GetMapping
+	 ^
+  symbol:   class GetMapping
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:35: error: cannot find symbol
+	public void notifySms(@PathVariable long id) {
+	                       ^
+  symbol:   class PathVariable
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:34: error: cannot find symbol
+	@GetMapping("/{id}/notification")
+	 ^
+  symbol:   class GetMapping
+  location: class SaleController
+25 errors
+2022.12.28 16:39:09 INFO  time: code lens generation in 2.17s
+2022.12.28 16:39:31 WARN  no build target for: C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java
+2022.12.28 16:39:33 WARN  no build target for: C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java
+2022.12.28 16:39:36 WARN  Running javac-semanticdb failed for file:///C:/Users/igora/Documents/LAB%20-%20Knowledge/Sistema-de-cadastro/backend/src/main/java/com/devsuperior/dsmeta/controllers/SaleController.java. Output:
+semanticdb-javac: unknown flag '-'
+
+semanticdb-javac: unknown flag 'Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers'
+
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:3: error: package org.springframework.beans.factory.annotation does not exist
+import org.springframework.beans.factory.annotation.Autowired;
+                                                   ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:4: error: package org.springframework.data.domain does not exist
+import org.springframework.data.domain.Page;
+                                      ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:5: error: package org.springframework.data.domain does not exist
+import org.springframework.data.domain.Pageable;
+                                      ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:6: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.GetMapping;
+                                              ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:7: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.PathVariable;
+                                              ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:8: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.RequestMapping;
+                                              ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:9: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.RequestParam;
+                                              ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:10: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.RestController;
+                                              ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:12: error: package com.devsuperior.dsmeta.entities does not exist
+import com.devsuperior.dsmeta.entities.Sale;
+                                      ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:13: error: package com.devsuperior.dsmeta.services does not exist
+import com.devsuperior.dsmeta.services.SaleService;
+                                      ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:14: error: package com.devsuperior.dsmeta.services does not exist
+import com.devsuperior.dsmeta.services.SmsService;
+                                      ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:16: error: cannot find symbol
+@RestController
+ ^
+  symbol: class RestController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:17: error: cannot find symbol
+@RequestMapping(value="/sales")
+ ^
+  symbol: class RequestMapping
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:21: error: cannot find symbol
+	private SaleService service;
+	        ^
+  symbol:   class SaleService
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:24: error: cannot find symbol
+	private SmsService smsService;
+	        ^
+  symbol:   class SmsService
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:30: error: cannot find symbol
+			Pageable pageable) {
+			^
+  symbol:   class Pageable
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:27: error: cannot find symbol
+	public Page<Sale> findSales(
+	       ^
+  symbol:   class Page
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:27: error: cannot find symbol
+	public Page<Sale> findSales(
+	            ^
+  symbol:   class Sale
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:20: error: cannot find symbol
+	@Autowired
+	 ^
+  symbol:   class Autowired
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:23: error: cannot find symbol
+	@Autowired
+	 ^
+  symbol:   class Autowired
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:28: error: cannot find symbol
+			@RequestParam(value="minDate", defaultValue = "") String minDate, 
+			 ^
+  symbol:   class RequestParam
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:29: error: cannot find symbol
+			@RequestParam(value="maxDate", defaultValue = "") String maxDate, 
+			 ^
+  symbol:   class RequestParam
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:26: error: cannot find symbol
+	@GetMapping
+	 ^
+  symbol:   class GetMapping
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:35: error: cannot find symbol
+	public void notifySms(@PathVariable Long id) {
+	                       ^
+  symbol:   class PathVariable
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:34: error: cannot find symbol
+	@GetMapping("/{id}/notification")
+	 ^
+  symbol:   class GetMapping
+  location: class SaleController
+25 errors
+2022.12.28 16:39:38 WARN  Running javac-semanticdb failed for file:///C:/Users/igora/Documents/LAB%20-%20Knowledge/Sistema-de-cadastro/backend/src/main/java/com/devsuperior/dsmeta/controllers/SaleController.java. Output:
+semanticdb-javac: unknown flag '-'
+
+semanticdb-javac: unknown flag 'Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers'
+
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:3: error: package org.springframework.beans.factory.annotation does not exist
+import org.springframework.beans.factory.annotation.Autowired;
+                                                   ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:4: error: package org.springframework.data.domain does not exist
+import org.springframework.data.domain.Page;
+                                      ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:5: error: package org.springframework.data.domain does not exist
+import org.springframework.data.domain.Pageable;
+                                      ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:6: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.GetMapping;
+                                              ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:7: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.PathVariable;
+                                              ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:8: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.RequestMapping;
+                                              ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:9: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.RequestParam;
+                                              ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:10: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.RestController;
+                                              ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:12: error: package com.devsuperior.dsmeta.entities does not exist
+import com.devsuperior.dsmeta.entities.Sale;
+                                      ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:13: error: package com.devsuperior.dsmeta.services does not exist
+import com.devsuperior.dsmeta.services.SaleService;
+                                      ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:14: error: package com.devsuperior.dsmeta.services does not exist
+import com.devsuperior.dsmeta.services.SmsService;
+                                      ^
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:16: error: cannot find symbol
+@RestController
+ ^
+  symbol: class RestController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:17: error: cannot find symbol
+@RequestMapping(value="/sales")
+ ^
+  symbol: class RequestMapping
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:21: error: cannot find symbol
+	private SaleService service;
+	        ^
+  symbol:   class SaleService
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:24: error: cannot find symbol
+	private SmsService smsService;
+	        ^
+  symbol:   class SmsService
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:30: error: cannot find symbol
+			Pageable pageable) {
+			^
+  symbol:   class Pageable
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:27: error: cannot find symbol
+	public Page<Sale> findSales(
+	       ^
+  symbol:   class Page
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:27: error: cannot find symbol
+	public Page<Sale> findSales(
+	            ^
+  symbol:   class Sale
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:20: error: cannot find symbol
+	@Autowired
+	 ^
+  symbol:   class Autowired
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:23: error: cannot find symbol
+	@Autowired
+	 ^
+  symbol:   class Autowired
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:28: error: cannot find symbol
+			@RequestParam(value="minDate", defaultValue = "") String minDate, 
+			 ^
+  symbol:   class RequestParam
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:29: error: cannot find symbol
+			@RequestParam(value="maxDate", defaultValue = "") String maxDate, 
+			 ^
+  symbol:   class RequestParam
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:26: error: cannot find symbol
+	@GetMapping
+	 ^
+  symbol:   class GetMapping
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:35: error: cannot find symbol
+	public void notifySms(@PathVariable Long id) {
+	                       ^
+  symbol:   class PathVariable
+  location: class SaleController
+C:\Users\igora\Documents\LAB - Knowledge\Sistema-de-cadastro\backend\src\main\java\com\devsuperior\dsmeta\controllers\SaleController.java:34: error: cannot find symbol
+	@GetMapping("/{id}/notification")
+	 ^
+  symbol:   class GetMapping
+  location: class SaleController
+25 errors
+2022.12.28 16:39:38 INFO  time: code lens generation in 2.93s
